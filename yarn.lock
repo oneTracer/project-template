@@ -756,7 +756,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@7.x", "@babel/runtime@^7.0.0", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.9.6"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/@babel/runtime/download/@babel/runtime-7.9.6.tgz#a9102eb5cadedf3f31d08a9ecf294af7827ea29f"
   integrity sha1-qRAutcre3z8x0IqezylK94J+op8=
@@ -907,11 +907,6 @@
   version "1.5.2"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/@types/q/download/@types/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha1-aQoUdbhPKohP0HzXl8APXzE1bqg=
-
-"@vant/icons@1.2.1":
-  version "1.2.1"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/@vant/icons/download/@vant/icons-1.2.1.tgz#309fecb97a4989866f045ce676b545c454701c8f"
-  integrity sha1-MJ/suXpJiYZvBFzmdrVFxFRwHI8=
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
   version "1.0.0"
@@ -1372,11 +1367,6 @@ alphanum-sort@^1.0.0:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/alphanum-sort/download/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-amfe-flexible@^2.2.1:
-  version "2.2.1"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/amfe-flexible/download/amfe-flexible-2.2.1.tgz#353f00289e4d38ca88a21eb3854420308af0b559"
-  integrity sha1-NT8AKJ5NOMqIoh6zhUQgMIrwtVk=
-
 ansi-colors@^3.0.0:
   version "3.2.4"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/ansi-colors/download/ansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
@@ -1393,11 +1383,6 @@ ansi-html@0.0.7:
   version "0.0.7"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/ansi-html/download/ansi-html-0.0.7.tgz#813584021962a9e9e6fd039f940d12f56ca7859e"
   integrity sha1-gTWEAhliqenm/QOflA0S9WynhZ4=
-
-ansi-regex@^0.2.0, ansi-regex@^0.2.1:
-  version "0.2.1"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/ansi-regex/download/ansi-regex-0.2.1.tgz#0d8e946967a3d8143f93e24e298525fc1b2235f9"
-  integrity sha1-DY6UaWej2BQ/k+JOKYUl/BsiNfk=
 
 ansi-regex@^2.0.0:
   version "2.1.1"
@@ -1418,11 +1403,6 @@ ansi-regex@^5.0.0:
   version "5.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/ansi-regex/download/ansi-regex-5.0.0.tgz#388539f55179bf39339c81af30a654d69f87cb75"
   integrity sha1-OIU59VF5vzkznIGvMKZU1p+Hy3U=
-
-ansi-styles@^1.1.0:
-  version "1.1.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/ansi-styles/download/ansi-styles-1.1.0.tgz#eaecbf66cd706882760b2f4691582b8f55d7a7de"
-  integrity sha1-6uy/Zs1waIJ2Cy9GkVgrj1XXp94=
 
 ansi-styles@^2.2.1:
   version "2.2.1"
@@ -1546,11 +1526,6 @@ array.prototype.flat@^1.2.1:
     define-properties "^1.1.3"
     es-abstract "^1.17.0-next.1"
 
-asap@~2.0.3:
-  version "2.0.6"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/asap/download/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
-  integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
-
 asn1.js@^4.0.0:
   version "4.10.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/asn1.js/download/asn1.js-4.10.1.tgz#b9c2bf5805f1e64aadeed6df3a2bfafb5a73f5a0"
@@ -1606,6 +1581,11 @@ async@^2.6.2:
   integrity sha1-1yYl4jRKNlbjo61Pp0n6gymdgv8=
   dependencies:
     lodash "^4.17.14"
+
+async@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/async/-/async-3.2.0.tgz#b3a2685c5ebb641d3de02d161002c60fc9f85720"
+  integrity sha512-TR2mEZFVOj2pLStYxLht7TyfuRzaydfpxr3k9RpHIzMgw7A64dzsdqCxH1WJyQdoe8T10nDXd9wnEigmiuHIZw==
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -1685,23 +1665,6 @@ babel-plugin-import@^1.13.0:
     "@babel/helper-module-imports" "^7.0.0"
     "@babel/runtime" "^7.0.0"
 
-babel-plugin-transform-modules@^0.1.1:
-  version "0.1.1"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/babel-plugin-transform-modules/download/babel-plugin-transform-modules-0.1.1.tgz#2a72ced69d85613d953196ae9a86d39f19fd7933"
-  integrity sha1-KnLO1p2FYT2VMZaumobTnxn9eTM=
-  dependencies:
-    lodash.camelcase "^4.3.0"
-    lodash.kebabcase "^4.1.1"
-    lodash.snakecase "^4.1.1"
-
-babel-runtime@^6.0.0:
-  version "6.26.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/babel-runtime/download/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
-  integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
-  dependencies:
-    core-js "^2.4.0"
-    regenerator-runtime "^0.11.0"
-
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/balanced-match/download/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
@@ -1736,13 +1699,6 @@ bcrypt-pbkdf@^1.0.0:
   integrity sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
   dependencies:
     tweetnacl "^0.14.3"
-
-better-scroll@~1.12.6:
-  version "1.12.6"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/better-scroll/download/better-scroll-1.12.6.tgz#7548860f8b8c08c87e5af062e1da6e2c68c98337"
-  integrity sha1-dUiGD4uMCMh+WvBi4dpuLGjJgzc=
-  dependencies:
-    babel-runtime "^6.0.0"
 
 bfj@^6.1.1:
   version "6.1.2"
@@ -2154,16 +2110,13 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@~0.5.1:
-  version "0.5.1"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/chalk/download/chalk-0.5.1.tgz#663b3a648b68b55d04690d49167aa837858f2174"
-  integrity sha1-Zjs6ZItotV0EaQ1JFnqoN4WPIXQ=
+chalk@^4.1.0:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
+  integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
   dependencies:
-    ansi-styles "^1.1.0"
-    escape-string-regexp "^1.0.0"
-    has-ansi "^0.1.0"
-    strip-ansi "^0.3.0"
-    supports-color "^0.2.0"
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
 
 chardet@^0.7.0:
   version "0.7.0"
@@ -2175,10 +2128,10 @@ check-types@^8.0.3:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/check-types/download/check-types-8.0.3.tgz#3356cca19c889544f2d7a95ed49ce508a0ecf552"
   integrity sha1-M1bMoZyIlUTy16le1JzlCKDs9VI=
 
-"chokidar@>=2.0.0 <4.0.0":
-  version "3.4.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/chokidar/download/chokidar-3.4.0.tgz#b30611423ce376357c765b9b8f904b9fba3c0be8"
-  integrity sha1-swYRQjzjdjV8dlubj5BLn7o8C+g=
+"chokidar@>=3.0.0 <4.0.0":
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.1.tgz#ee9ce7bbebd2b79f49f304799d5468e31e14e68a"
+  integrity sha512-9+s+Od+W0VJJzawDma/gvBNQqkTiqYTWLuZoyAsivsI4AaWTCzHG06/TMjsf1cYe9Cb97UCEhjz7HvnPk2p/tw==
   dependencies:
     anymatch "~3.1.1"
     braces "~3.0.2"
@@ -2186,9 +2139,9 @@ check-types@^8.0.3:
     is-binary-path "~2.1.0"
     is-glob "~4.0.1"
     normalize-path "~3.0.0"
-    readdirp "~3.4.0"
+    readdirp "~3.5.0"
   optionalDependencies:
-    fsevents "~2.1.2"
+    fsevents "~2.3.1"
 
 chokidar@^2.1.8:
   version "2.1.8"
@@ -2338,11 +2291,6 @@ clone@^1.0.2:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/clone/download/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha1-2jCcwmPfFZlMaIypAheco8fNfH4=
 
-clone@^2.1.1, clone@^2.1.2:
-  version "2.1.2"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/clone/download/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
-  integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
-
 coa@^2.0.2:
   version "2.0.2"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/coa/download/coa-2.0.2.tgz#43f6c21151b4ef2bf57187db0d73de229e3e7ec3"
@@ -2421,11 +2369,6 @@ commander@~2.19.0:
   version "2.19.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/commander/download/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
   integrity sha1-9hmKqE5bg8RgVLlN3tv+1e6f8So=
-
-commander@~2.6.0:
-  version "2.6.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/commander/download/commander-2.6.0.tgz#9df7e52fb2a0cb0fb89058ee80c3104225f37e1d"
-  integrity sha1-nfflL7Kgyw+4kFjugMMQQiXzfh0=
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -2576,11 +2519,6 @@ core-js-compat@^3.6.2, core-js-compat@^3.6.4:
     browserslist "^4.8.5"
     semver "7.0.0"
 
-core-js@^2.4.0:
-  version "2.6.11"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/core-js/download/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
-  integrity sha1-OIMUafmSK97Y7iHJ3EaYXgOZMIw=
-
 core-js@^3.6.4:
   version "3.6.5"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/core-js/download/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
@@ -2721,13 +2659,6 @@ css-loader@^3.4.2:
     schema-utils "^2.6.6"
     semver "^6.3.0"
 
-css-parse@~2.0.0:
-  version "2.0.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/css-parse/download/css-parse-2.0.0.tgz#a468ee667c16d81ccf05c58c38d2a97c780dbfd4"
-  integrity sha1-pGjuZnwW2BzPBcWMONKpfHgNv9Q=
-  dependencies:
-    css "^2.0.0"
-
 css-select-base-adapter@^0.1.1:
   version "0.1.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/css-select-base-adapter/download/css-select-base-adapter-0.1.1.tgz#3b2ff4972cc362ab88561507a95408a1432135d7"
@@ -2778,16 +2709,6 @@ css-what@^3.2.1:
   version "3.2.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/css-what/download/css-what-3.2.1.tgz#f4a8f12421064621b456755e34a03a2c22df5da1"
   integrity sha1-9KjxJCEGRiG0VnVeNKA6LCLfXaE=
-
-css@^2.0.0, css@~2.2.0:
-  version "2.2.4"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/css/download/css-2.2.4.tgz#c646755c73971f2bba6a601e2cf2fd71b1298929"
-  integrity sha1-xkZ1XHOXHyu6amAeLPL9cbEpiSk=
-  dependencies:
-    inherits "^2.0.3"
-    source-map "^0.6.1"
-    source-map-resolve "^0.5.2"
-    urix "^0.1.0"
 
 cssesc@^3.0.0:
   version "3.0.0"
@@ -2893,7 +2814,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@=3.1.0, debug@~3.1.0:
+debug@=3.1.0:
   version "3.1.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/debug/download/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   integrity sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
@@ -3060,9 +2981,9 @@ dns-equal@^1.0.0:
   integrity sha1-s55/HabrCnW6nBcySzR1PEfgZU0=
 
 dns-packet@^1.3.1:
-  version "1.3.1"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/dns-packet/download/dns-packet-1.3.1.tgz#12aa426981075be500b910eedcd0b47dd7deda5a"
-  integrity sha1-EqpCaYEHW+UAuRDu3NC0fdfe2lo=
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-1.3.4.tgz#e3455065824a2507ba886c55a89963bb107dec6f"
+  integrity sha512-BQ6F4vycLXBvdrJZ6S3gZewt6rcrks9KBgM9vrhW+knGRqc8uEdT7fuCwloc7nny5xNoMJ17HGH0R/6fpo8ECA==
   dependencies:
     ip "^1.1.0"
     safe-buffer "^5.0.1"
@@ -3187,13 +3108,6 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-echarts@^4.7.0:
-  version "4.7.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/echarts/download/echarts-4.7.0.tgz#5b3875a4c2f91e3929425fabab9eace7e4098b3f"
-  integrity sha1-Wzh1pML5HjkpQl+rq56s5+QJiz8=
-  dependencies:
-    zrender "4.3.0"
-
 ee-first@1.1.1:
   version "1.1.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
@@ -3282,7 +3196,7 @@ entities@^2.0.0:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/entities/download/entities-2.0.0.tgz#68d6084cab1b079767540d80e56a39b423e4abf4"
   integrity sha1-aNYITKsbB5dnVA2A5Wo5tCPkq/Q=
 
-errno@^0.1.1, errno@^0.1.3, errno@~0.1.7:
+errno@^0.1.3, errno@~0.1.7:
   version "0.1.7"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/errno/download/errno-0.1.7.tgz#4684d71779ad39af177e3f007996f7c67c852618"
   integrity sha1-RoTXF3mtOa8Xfj8AeZb3xnyFJhg=
@@ -3334,7 +3248,7 @@ escape-html@~1.0.3:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/escape-html/download/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
 
-escape-string-regexp@^1.0.0, escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
+escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
@@ -3706,7 +3620,7 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
-extend@~3.0.0, extend@~3.0.2:
+extend@~3.0.2:
   version "3.0.2"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/extend/download/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha1-+LETa0Bx+9jrFAr/hYsQGewpFfo=
@@ -4010,15 +3924,6 @@ fs-extra@^7.0.1:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
-fs-extra@~0.16.3:
-  version "0.16.5"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/fs-extra/download/fs-extra-0.16.5.tgz#1ad661fa6c86c9608cd1b49efc6fce834939a750"
-  integrity sha1-GtZh+myGyWCM0bSe/G/Og0k5p1A=
-  dependencies:
-    graceful-fs "^3.0.5"
-    jsonfile "^2.0.0"
-    rimraf "^2.2.8"
-
 fs-minipass@^2.0.0:
   version "2.1.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/fs-minipass/download/fs-minipass-2.1.0.tgz#7f5036fdbf12c63c169190cbe4199c852271f9fb"
@@ -4049,10 +3954,10 @@ fsevents@^1.2.7:
     bindings "^1.5.0"
     nan "^2.12.1"
 
-fsevents@~2.1.2:
-  version "2.1.3"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/fsevents/download/fsevents-2.1.3.tgz#fb738703ae8d2f9fe900c33836ddebee8b97f23e"
-  integrity sha1-+3OHA66NL5/pAMM4Nt3r7ouX8j4=
+fsevents@~2.3.1:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
+  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -4137,6 +4042,18 @@ glob@^7.0.3, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
+glob@^7.1.6:
+  version "7.1.7"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.7.tgz#3b193e9233f01d42d0b3f78294bbeeb418f94a90"
+  integrity sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
 globals@^11.1.0:
   version "11.12.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/globals/download/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
@@ -4186,13 +4103,6 @@ globby@^9.2.0:
     pify "^4.0.1"
     slash "^2.0.0"
 
-graceful-fs@^3.0.5:
-  version "3.0.12"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/graceful-fs/download/graceful-fs-3.0.12.tgz#0034947ce9ed695ec8ab0b854bc919e82b1ffaef"
-  integrity sha1-ADSUfOntaV7IqwuFS8kZ6Csf+u8=
-  dependencies:
-    natives "^1.1.3"
-
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.2:
   version "4.2.4"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/graceful-fs/download/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
@@ -4224,24 +4134,12 @@ har-validator@~5.1.3:
     ajv "^6.5.5"
     har-schema "^2.0.0"
 
-has-ansi@^0.1.0:
-  version "0.1.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/has-ansi/download/has-ansi-0.1.0.tgz#84f265aae8c0e6a88a12d7022894b7568894c62e"
-  integrity sha1-hPJlqujA5qiKEtcCKJS3VoiUxi4=
-  dependencies:
-    ansi-regex "^0.2.0"
-
 has-ansi@^2.0.0:
   version "2.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/has-ansi/download/has-ansi-2.0.0.tgz#34f5049ce1ecdf2b0649af3ef24e45ed35416d91"
   integrity sha1-NPUEnOHs3ysGSa8+8k5F7TVBbZE=
   dependencies:
     ansi-regex "^2.0.0"
-
-has-flag@^1.0.0:
-  version "1.0.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/has-flag/download/has-flag-1.0.0.tgz#9d9e793165ce017a00f00418c43f942a7b1d11fa"
-  integrity sha1-nZ55MWXOAXoA8AQYxD+UKnsdEfo=
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -4505,14 +4403,6 @@ https-browserify@^1.0.0:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/https-browserify/download/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-hui-mobile@1.0.0:
-  version "1.0.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/hui-mobile/-/hui-mobile-1.0.0.tgz#02d52d61683f5452acaaa9e39d4e2cb16592e6d6"
-  integrity sha1-AtUtYWg/VFKsqqnjnU4ssWWS5tY=
-  dependencies:
-    better-scroll "~1.12.6"
-    vue-create-api "^0.2.0"
-
 human-signals@^1.1.1:
   version "1.1.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/human-signals/download/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
@@ -4572,11 +4462,6 @@ ignore@^5.1.1:
   version "5.1.4"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/ignore/download/ignore-5.1.4.tgz#84b7b3dbe64552b6ef0eca99f6743dbec6d97adf"
   integrity sha1-hLez2+ZFUrbvDsqZ9nQ9vsbZet8=
-
-image-size@~0.5.0:
-  version "0.5.5"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/image-size/download/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
-  integrity sha1-Cd/Uq50g4p6xw+gLiZA3jfnjy5w=
 
 import-cwd@^2.0.0:
   version "2.1.0"
@@ -5034,11 +4919,6 @@ jest-worker@^25.4.0:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
-js-base64@^2.1.9:
-  version "2.5.2"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/js-base64/download/js-base64-2.5.2.tgz#313b6274dda718f714d00b3330bbae6e38e90209"
-  integrity sha1-MTtidN2nGPcU0AszMLuubjjpAgk=
-
 js-message@1.0.5:
   version "1.0.5"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/js-message/download/js-message-1.0.5.tgz#2300d24b1af08e89dd095bc1a4c9c9cfcb892d15"
@@ -5128,13 +5008,6 @@ json5@^2.1.2:
   dependencies:
     minimist "^1.2.5"
 
-jsonfile@^2.0.0:
-  version "2.4.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/jsonfile/download/jsonfile-2.4.0.tgz#3736a2b428b87bbda0cc83b53fa3d633a35c2ae8"
-  integrity sha1-NzaitCi4e72gzIO1P6PWM6NcKug=
-  optionalDependencies:
-    graceful-fs "^4.1.6"
-
 jsonfile@^4.0.0:
   version "4.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/jsonfile/download/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
@@ -5181,14 +5054,6 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/kind-of/download/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0=
 
-last-call-webpack-plugin@^3.0.0:
-  version "3.0.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/last-call-webpack-plugin/download/last-call-webpack-plugin-3.0.0.tgz#9742df0e10e3cf46e5c0381c2de90d3a7a2d7555"
-  integrity sha1-l0LfDhDjz0blwDgcLekNOnotdVU=
-  dependencies:
-    lodash "^4.17.5"
-    webpack-sources "^1.1.0"
-
 launch-editor-middleware@^2.2.1:
   version "2.2.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/launch-editor-middleware/download/launch-editor-middleware-2.2.1.tgz#e14b07e6c7154b0a4b86a0fd345784e45804c157"
@@ -5203,32 +5068,6 @@ launch-editor@^2.2.1:
   dependencies:
     chalk "^2.3.0"
     shell-quote "^1.6.1"
-
-less-loader@^5.0.0:
-  version "5.0.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/less-loader/download/less-loader-5.0.0.tgz#498dde3a6c6c4f887458ee9ed3f086a12ad1b466"
-  integrity sha1-SY3eOmxsT4h0WO6e0/CGoSrRtGY=
-  dependencies:
-    clone "^2.1.1"
-    loader-utils "^1.1.0"
-    pify "^4.0.1"
-
-less@^3.0.4:
-  version "3.11.1"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/less/download/less-3.11.1.tgz#c6bf08e39e02404fe6b307a3dfffafdc55bd36e2"
-  integrity sha1-xr8I454CQE/mswej3/+v3FW9NuI=
-  dependencies:
-    clone "^2.1.2"
-    tslib "^1.10.0"
-  optionalDependencies:
-    errno "^0.1.1"
-    graceful-fs "^4.1.2"
-    image-size "~0.5.0"
-    mime "^1.4.1"
-    mkdirp "^0.5.0"
-    promise "^7.1.1"
-    request "^2.83.0"
-    source-map "~0.6.0"
 
 leven@^3.1.0:
   version "3.1.0"
@@ -5265,13 +5104,6 @@ load-json-file@^2.0.0:
     pify "^2.0.0"
     strip-bom "^3.0.0"
 
-load-pkg-config@^1.0.1:
-  version "1.0.1"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/load-pkg-config/download/load-pkg-config-1.0.1.tgz#1a7d78c21bf257e67935e8faa603f4fe519c49a8"
-  integrity sha1-Gn14whvyV+Z5Nej6pgP0/lGcSag=
-  dependencies:
-    resolve-pkg "^1.0.0"
-
 loader-fs-cache@^1.0.0:
   version "1.0.3"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/loader-fs-cache/download/loader-fs-cache-1.0.3.tgz#f08657646d607078be2f0a032f8bd69dd6f277d9"
@@ -5304,6 +5136,15 @@ loader-utils@^1.0.2, loader-utils@^1.1.0, loader-utils@^1.2.3, loader-utils@^1.4
     emojis-list "^3.0.0"
     json5 "^1.0.1"
 
+loader-utils@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-2.0.0.tgz#e4cace5b816d425a166b5f097e10cd12b36064b0"
+  integrity sha512-rP4F0h2RaWSvPEkD7BLDFQnvSf+nK+wr3ESUjNTyAGobqrijmW92zc+SO6d4p4B1wh7+B/Jg1mkQe5NYUEHtHQ==
+  dependencies:
+    big.js "^5.2.2"
+    emojis-list "^3.0.0"
+    json5 "^2.1.2"
+
 locate-path@^2.0.0:
   version "2.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/locate-path/download/locate-path-2.0.0.tgz#2b568b265eec944c6d9c0de9c3dbbbca0354cd8e"
@@ -5327,16 +5168,6 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash.camelcase@^4.3.0:
-  version "4.3.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/lodash.camelcase/download/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
-  integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
-
-lodash.clonedeep@^4.5.0:
-  version "4.5.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
-  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
-
 lodash.defaultsdeep@^4.6.1:
   version "4.6.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/lodash.defaultsdeep/download/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
@@ -5357,11 +5188,6 @@ lodash.memoize@^4.1.2:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/lodash.memoize/download/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
-lodash.snakecase@^4.1.1:
-  version "4.1.1"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/lodash.snakecase/download/lodash.snakecase-4.1.1.tgz#39d714a35357147837aefd64b5dcbb16becd8f8d"
-  integrity sha1-OdcUo1NXFHg3rv1ktdy7Fr7Nj40=
-
 lodash.transform@^4.6.0:
   version "4.6.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/lodash.transform/download/lodash.transform-4.6.0.tgz#12306422f63324aed8483d3f38332b5f670547a0"
@@ -5372,7 +5198,7 @@ lodash.uniq@^4.5.0:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/lodash.uniq/download/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.5:
+lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3:
   version "4.17.15"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
@@ -5554,7 +5380,7 @@ mime-types@^2.1.12, mime-types@~2.1.17, mime-types@~2.1.19, mime-types@~2.1.24:
   dependencies:
     mime-db "1.44.0"
 
-mime@1.6.0, mime@^1.4.1:
+mime@1.6.0:
   version "1.6.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/mime/download/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
   integrity sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE=
@@ -5658,12 +5484,17 @@ mixin-deep@^1.2.0:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
 
-mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@~0.5.1, mkdirp@~0.5.x:
+mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@~0.5.1:
   version "0.5.5"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/mkdirp/download/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
   integrity sha1-2Rzv1i0UNsoPQWIOJRKI1CAJne8=
   dependencies:
     minimist "^1.2.5"
+
+moment@^2.26.0:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -5740,11 +5571,6 @@ nanomatch@^1.2.9:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
-
-natives@^1.1.3:
-  version "1.1.6"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/natives/download/natives-1.1.6.tgz#a603b4a498ab77173612b9ea1acdec4d980f00bb"
-  integrity sha1-pgO0pJirdxc2ErnqGs3sTZgPALs=
 
 natural-compare@^1.4.0:
   version "1.4.0"
@@ -6039,14 +5865,6 @@ opn@^5.5.0:
   integrity sha1-/HFk+rVtI1kExRw7J9pnWMo7m/w=
   dependencies:
     is-wsl "^1.1.0"
-
-optimize-css-assets-webpack-plugin@^5.0.1:
-  version "5.0.3"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/optimize-css-assets-webpack-plugin/download/optimize-css-assets-webpack-plugin-5.0.3.tgz#e2f1d4d94ad8c0af8967ebd7cf138dcb1ef14572"
-  integrity sha1-4vHU2UrYwK+JZ+vXzxONyx7xRXI=
-  dependencies:
-    cssnano "^4.1.10"
-    last-call-webpack-plugin "^3.0.0"
 
 optionator@^0.8.3:
   version "0.8.3"
@@ -6696,14 +6514,6 @@ postcss-ordered-values@^4.1.2:
     postcss "^7.0.0"
     postcss-value-parser "^3.0.0"
 
-postcss-px2rem@^0.3.0:
-  version "0.3.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/postcss-px2rem/download/postcss-px2rem-0.3.0.tgz#0dfa4e8a268fa7478273f0c4b47c619834894041"
-  integrity sha1-DfpOiiaPp0eCc/DEtHxhmDSJQEE=
-  dependencies:
-    postcss "^5.0.0"
-    px2rem "~0.5.0"
-
 postcss-reduce-initial@^4.0.3:
   version "4.0.3"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/postcss-reduce-initial/download/postcss-reduce-initial-4.0.3.tgz#7fd42ebea5e9c814609639e2c2e84ae270ba48df"
@@ -6771,16 +6581,6 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.0.2, postcss-value-parser@^
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/postcss-value-parser/download/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
   integrity sha1-RD9qIM7WSBor2k+oUypuVdeJoss=
 
-postcss@^5.0.0:
-  version "5.2.18"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/postcss/download/postcss-5.2.18.tgz#badfa1497d46244f6390f58b319830d9107853c5"
-  integrity sha1-ut+hSX1GJE9jkPWLMZgw2RB4U8U=
-  dependencies:
-    chalk "^1.1.3"
-    js-base64 "^2.1.9"
-    source-map "^0.5.6"
-    supports-color "^3.2.3"
-
 postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.16, postcss@^7.0.27, postcss@^7.0.5, postcss@^7.0.6:
   version "7.0.29"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/postcss/download/postcss-7.0.29.tgz#d3a903872bd52280b83bce38cdc83ce55c06129e"
@@ -6837,13 +6637,6 @@ promise-inflight@^1.0.1:
   version "1.0.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/promise-inflight/download/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
-
-promise@^7.1.1:
-  version "7.3.1"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/promise/download/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
-  integrity sha1-BktyYCsY+Q8pGSuLG8QY/9Hr078=
-  dependencies:
-    asap "~2.0.3"
 
 proxy-addr@~2.0.5:
   version "2.0.6"
@@ -6919,17 +6712,6 @@ punycode@^2.1.0, punycode@^2.1.1:
   version "2.1.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/punycode/download/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
-
-px2rem@~0.5.0:
-  version "0.5.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/px2rem/download/px2rem-0.5.0.tgz#24b3a6cf74d14adb4ed776f207871d9893e410e2"
-  integrity sha1-JLOmz3TRSttO13byB4cdmJPkEOI=
-  dependencies:
-    chalk "~0.5.1"
-    commander "~2.6.0"
-    css "~2.2.0"
-    extend "~3.0.0"
-    fs-extra "~0.16.3"
 
 q@^1.1.2:
   version "1.5.1"
@@ -7057,10 +6839,10 @@ readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
-readdirp@~3.4.0:
-  version "3.4.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/readdirp/download/readdirp-3.4.0.tgz#9fdccdf9e9155805449221ac645e8303ab5b9ada"
-  integrity sha1-n9zN+ekVWAVEkiGsZF6DA6tbmto=
+readdirp@~3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.5.0.tgz#9ba74c019b15d365278d2e91bb8c48d7b4d42c9e"
+  integrity sha512-cMhu7c/8rdhkHXWsY+osBhfSy0JikwpHK/5+imo+LpeasTF8ouErHrlYkwT0++njiyuDvc7OFY5T3ukvZ8qmFQ==
   dependencies:
     picomatch "^2.2.1"
 
@@ -7075,11 +6857,6 @@ regenerate@^1.4.0:
   version "1.4.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/regenerate/download/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
   integrity sha1-SoVuxLVuQHfFV1icroXnpMiGmhE=
-
-regenerator-runtime@^0.11.0:
-  version "0.11.1"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/regenerator-runtime/download/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
-  integrity sha1-vgWtf5v30i4Fb5cmzuUBf78Z4uk=
 
 regenerator-runtime@^0.13.4:
   version "0.13.5"
@@ -7191,7 +6968,7 @@ request-promise-native@^1.0.8:
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
-request@^2.83.0, request@^2.88.2:
+request@^2.88.2:
   version "2.88.2"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/request/download/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
   integrity sha1-1zyRhzHLWofaBH4gcjQUb2ZNErM=
@@ -7239,11 +7016,6 @@ resolve-cwd@^2.0.0:
   dependencies:
     resolve-from "^3.0.0"
 
-resolve-from@^2.0.0:
-  version "2.0.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/resolve-from/download/resolve-from-2.0.0.tgz#9480ab20e94ffa1d9e80a804c7ea147611966b57"
-  integrity sha1-lICrIOlP+h2egKgEx+oUdhGWa1c=
-
 resolve-from@^3.0.0:
   version "3.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/resolve-from/download/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
@@ -7253,13 +7025,6 @@ resolve-from@^4.0.0:
   version "4.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/resolve-from/download/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
   integrity sha1-SrzYUq0y3Xuqv+m0DgCjbbXzkuY=
-
-resolve-pkg@^1.0.0:
-  version "1.0.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/resolve-pkg/download/resolve-pkg-1.0.0.tgz#e19a15e78aca2e124461dc92b2e3943ef93494d9"
-  integrity sha1-4ZoV54rKLhJEYdySsuOUPvk0lNk=
-  dependencies:
-    resolve-from "^2.0.0"
 
 resolve-url@^0.2.1:
   version "0.2.1"
@@ -7316,7 +7081,7 @@ rimraf@2.6.3:
   dependencies:
     glob "^7.1.3"
 
-rimraf@^2.2.8, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.3, rimraf@^2.7.1:
+rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.3, rimraf@^2.7.1:
   version "2.7.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/rimraf/download/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
   integrity sha1-NXl/E6f9rcVmFCwp1PB8ytSD4+w=
@@ -7356,9 +7121,9 @@ safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   integrity sha1-mR7GnSluAxN0fVm9/St0XDX4go0=
 
 safe-buffer@>=5.1.0, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@^5.2.0, safe-buffer@~5.2.0:
-  version "5.2.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/safe-buffer/download/safe-buffer-5.2.0.tgz#b74daec49b1148f88c64b68d49b1e815c1f2f519"
-  integrity sha1-t02uxJsRSPiMZLaNSbHoFcHy9Rk=
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+  integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
 safe-regex@^1.1.0:
   version "1.1.0"
@@ -7367,7 +7132,7 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-"safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@^2.1.2, safer-buffer@~2.1.0:
+"safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   version "2.1.2"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/safer-buffer/download/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
@@ -7383,12 +7148,22 @@ sass-loader@^8.0.2:
     schema-utils "^2.6.1"
     semver "^6.3.0"
 
-sass@^1.26.5:
-  version "1.26.5"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/sass/download/sass-1.26.5.tgz#2d7aecfbbabfa298567c8f06615b6e24d2d68099"
-  integrity sha1-LXrs+7q/ophWfI8GYVtuJNLWgJk=
+sass-resources-loader@^2.0.3:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/sass-resources-loader/-/sass-resources-loader-2.2.1.tgz#d7dbc36ccb25b2d8ffa508b1b8630b987df1e5c3"
+  integrity sha512-WlofxbWOVnxad874IHZdWbP9eW1pbyqsTJKBsMbeB+YELvLSrZQNDTpH70s6F19BwtanR3NEFnyGwJ9WyotJTQ==
   dependencies:
-    chokidar ">=2.0.0 <4.0.0"
+    async "^3.2.0"
+    chalk "^4.1.0"
+    glob "^7.1.6"
+    loader-utils "^2.0.0"
+
+sass@^1.26.8:
+  version "1.34.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.34.0.tgz#e46d5932d8b0ecc4feb846d861f26a578f7f7172"
+  integrity sha512-rHEN0BscqjUYuomUEaqq3BMgsXqQfkcMVR7UhscsAVub0/spUrZGBMxQXFS2kfiDsPLZw5yuU9iJEFNC2x38Qw==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
 
 sax@~1.2.4:
   version "1.2.4"
@@ -7674,7 +7449,7 @@ source-list-map@^2.0.0:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/source-list-map/download/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha1-OZO9hzv8SEecyp6jpUeDXHwVSzQ=
 
-source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
+source-map-resolve@^0.5.0:
   version "0.5.3"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/source-map-resolve/download/source-map-resolve-0.5.3.tgz#190866bece7553e1f8f267a2ee82c606b5509a1a"
   integrity sha1-GQhmvs51U+H48mei7oLGBrVQmho=
@@ -7707,11 +7482,6 @@ source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, source-map@~0.6.1:
   version "0.6.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/source-map/download/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
-
-source-map@^0.7.3:
-  version "0.7.3"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/source-map/download/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
-  integrity sha1-UwL4FpAxc1ImVECS5kmB91F1A4M=
 
 spdx-correct@^3.0.0:
   version "3.1.0"
@@ -7943,13 +7713,6 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-strip-ansi@^0.3.0:
-  version "0.3.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/strip-ansi/download/strip-ansi-0.3.0.tgz#25f48ea22ca79187f3174a4db8759347bb126220"
-  integrity sha1-JfSOoiynkYfzF0pNuHWTR7sSYiA=
-  dependencies:
-    ansi-regex "^0.2.1"
-
 strip-ansi@^3.0.0, strip-ansi@^3.0.1:
   version "3.0.1"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/strip-ansi/download/strip-ansi-3.0.1.tgz#6a385fb8853d952d5ff05d0e8aaf94278dc63dcf"
@@ -8012,45 +7775,10 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-stylus-loader@^3.0.2:
-  version "3.0.2"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/stylus-loader/download/stylus-loader-3.0.2.tgz#27a706420b05a38e038e7cacb153578d450513c6"
-  integrity sha1-J6cGQgsFo44DjnyssVNXjUUFE8Y=
-  dependencies:
-    loader-utils "^1.0.2"
-    lodash.clonedeep "^4.5.0"
-    when "~3.6.x"
-
-stylus@^0.54.5:
-  version "0.54.7"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/stylus/download/stylus-0.54.7.tgz#c6ce4793965ee538bcebe50f31537bfc04d88cd2"
-  integrity sha1-xs5Hk5Ze5Ti86+UPMVN7/ATYjNI=
-  dependencies:
-    css-parse "~2.0.0"
-    debug "~3.1.0"
-    glob "^7.1.3"
-    mkdirp "~0.5.x"
-    safer-buffer "^2.1.2"
-    sax "~1.2.4"
-    semver "^6.0.0"
-    source-map "^0.7.3"
-
-supports-color@^0.2.0:
-  version "0.2.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/supports-color/download/supports-color-0.2.0.tgz#d92de2694eb3f67323973d7ae3d8b55b4c22190a"
-  integrity sha1-2S3iaU6z9nMjlz1649i1W0wiGQo=
-
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/supports-color/download/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
   integrity sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=
-
-supports-color@^3.2.3:
-  version "3.2.3"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/supports-color/download/supports-color-3.2.3.tgz#65ac0504b3954171d8a64946b2ae3cbb8a5f54f6"
-  integrity sha1-ZawFBLOVQXHYpklGsq48u4pfVPY=
-  dependencies:
-    has-flag "^1.0.0"
 
 supports-color@^5.3.0:
   version "5.5.0"
@@ -8291,7 +8019,7 @@ ts-pnp@^1.1.6:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/ts-pnp/download/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
   integrity sha1-pQCtCEsHmPHDBxrzkeZZEshrypI=
 
-tslib@^1.10.0, tslib@^1.9.0:
+tslib@^1.9.0:
   version "1.11.2"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/tslib/download/tslib-1.11.2.tgz#9c79d83272c9a7aaf166f73915c9667ecdde3cc9"
   integrity sha1-nHnYMnLJp6rxZvc5Fclmfs3ePMk=
@@ -8553,16 +8281,6 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vant@^2.8.2:
-  version "2.8.2"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/vant/download/vant-2.8.2.tgz#b4e875f6b0bf2d8b08c823888bd93aaae162962d"
-  integrity sha1-tOh19rC/LYsIyCOIi9k6quFili0=
-  dependencies:
-    "@babel/runtime" "7.x"
-    "@vant/icons" "1.2.1"
-    "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
-    vue-lazyload "1.2.3"
-
 vary@~1.1.2:
   version "1.1.2"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/vary/download/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -8592,24 +8310,6 @@ vue-axios@^2.1.5:
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/vue-axios/download/vue-axios-2.1.5.tgz#1af4bf1218ed71309c76afb38d0f683e312c24a7"
   integrity sha1-GvS/EhjtcTCcdq+zjQ9oPjEsJKc=
 
-vue-cli-plugin-hui-mobile@^1.0.0:
-  version "1.0.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/vue-cli-plugin-hui-mobile/-/vue-cli-plugin-hui-mobile-1.0.0.tgz#0b6f08d0cf644dc4b854fefbbf85693f1e200c40"
-  integrity sha1-C28I0M9kTcS4VP77v4VpPx4gDEA=
-  dependencies:
-    webpack-post-compile-plugin "^1.0.0"
-    webpack-transform-modules-plugin "^0.4.0"
-
-vue-cli-plugin-visual-frame@^1.1.17:
-  version "1.1.17"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/vue-cli-plugin-visual-frame/-/vue-cli-plugin-visual-frame-1.1.17.tgz#f2cc3d35ffbd4b932a3565ad40d1b735dee2f986"
-  integrity sha1-8sw9Nf+9S5MqNWWtQNG3Nd7i+YY=
-
-vue-create-api@^0.2.0:
-  version "0.2.3"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/vue-create-api/download/vue-create-api-0.2.3.tgz#920b4e76349cf6aef692a6f743b96dc09eade5cd"
-  integrity sha1-kgtOdjSc9q72kqb3Q7ltwJ6t5c0=
-
 vue-eslint-parser@^7.0.0:
   version "7.0.0"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/vue-eslint-parser/download/vue-eslint-parser-7.0.0.tgz#a4ed2669f87179dedd06afdd8736acbb3a3864d6"
@@ -8626,11 +8326,6 @@ vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/vue-hot-reload-api/download/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha1-UylVzB6yCKPZkLOp+acFdGV+CPI=
-
-vue-lazyload@1.2.3:
-  version "1.2.3"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/vue-lazyload/download/vue-lazyload-1.2.3.tgz#901f9ec15c7e6ca78781a2bae4a343686bdedb2c"
-  integrity sha1-kB+ewVx+bKeHgaK65KNDaGve2yw=
 
 vue-loader@^15.9.1:
   version "15.9.2"
@@ -8794,13 +8489,6 @@ webpack-merge@^4.2.2:
   dependencies:
     lodash "^4.17.15"
 
-webpack-post-compile-plugin@^1.0.0:
-  version "1.0.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/webpack-post-compile-plugin/download/webpack-post-compile-plugin-1.0.0.tgz#a1bae348d4bb6ebcf2bd173cbc695ae8cc825278"
-  integrity sha1-obrjSNS7brzyvRc8vGla6MyCUng=
-  dependencies:
-    micromatch "^3.1.10"
-
 webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1, webpack-sources@^1.4.3:
   version "1.4.3"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/webpack-sources/download/webpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
@@ -8808,14 +8496,6 @@ webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1, webpack-
   dependencies:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
-
-webpack-transform-modules-plugin@^0.4.0:
-  version "0.4.4"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/webpack-transform-modules-plugin/download/webpack-transform-modules-plugin-0.4.4.tgz#61a3e71b35eac49a5102423a3f66946b66374443"
-  integrity sha1-YaPnGzXqxJpRAkI6P2aUa2Y3REM=
-  dependencies:
-    babel-plugin-transform-modules "^0.1.1"
-    load-pkg-config "^1.0.1"
 
 webpack@^4.0.0:
   version "4.43.0"
@@ -8866,11 +8546,6 @@ websocket-extensions@>=0.1.1:
   version "0.1.3"
   resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-isms/websocket-extensions/download/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
   integrity sha1-XS/yKXcAPsaHpLhwc9+7rBRszyk=
-
-when@~3.6.x:
-  version "3.6.4"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/when/download/when-3.6.4.tgz#473b517ec159e2b85005497a13983f095412e34e"
-  integrity sha1-RztRfsFZ4rhQBUl6E5g/CVQS404=
 
 which-module@^2.0.0:
   version "2.0.0"
@@ -9035,8 +8710,3 @@ yorkie@^2.0.0:
     is-ci "^1.0.10"
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
-
-zrender@4.3.0:
-  version "4.3.0"
-  resolved "http://af.hikvision.com.cn:80/artifactory/api/npm/npm-down/zrender/download/zrender-4.3.0.tgz#9f056121b20bbae44414d287bf6a119ff7042661"
-  integrity sha1-nwVhIbILuuREFNKHv2oRn/cEJmE=
